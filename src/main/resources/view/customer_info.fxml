@@ -12,11 +12,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-border-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerInfoController">
+<AnchorPane prefHeight="550.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerInfoController">
    <children>
-      <StackPane alignment="BASELINE_LEFT" prefHeight="532.0" prefWidth="254.0" style="-fx-background-color: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e); -fx-border-radius: 15; -fx-background-radius: 15;">
+      <StackPane prefHeight="550.0" prefWidth="273.0" style="-fx-background-color: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e); -fx-border-radius: 15; -fx-background-radius: 15;">
          <children>
-            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="278.0" spacing="15.0" style="-fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)); -fx-background-radius: 15; -fx-border-color: rgba(255, 255, 255, 0.4); -fx-border-radius: 15; -fx-border-width: 1.5;">
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="279.0" spacing="15.0" style="-fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)); -fx-background-radius: 15; -fx-border-color: rgba(255, 255, 255, 0.4); -fx-border-radius: 15; -fx-border-width: 1.5;" StackPane.alignment="BOTTOM_LEFT">
                <padding>
                   <Insets top="30.0" />
                </padding>
@@ -66,34 +66,34 @@
                         <Insets />
                      </opaqueInsets>
                   </TextField>
-                  <HBox alignment="TOP_CENTER" prefHeight="47.0" prefWidth="280.0" spacing="29.0">
+                  <HBox alignment="TOP_CENTER" prefHeight="41.0" prefWidth="276.0" spacing="29.0">
                      <children>
-                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#AddCustomerOnAction" prefHeight="27.0" prefWidth="103.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Add " />
+                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#AddCustomerOnAction" prefHeight="27.0" prefWidth="94.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Add " />
                         <Button mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Update" />
                      </children>
                   </HBox>
-                  <HBox alignment="TOP_CENTER" prefHeight="47.0" prefWidth="280.0" spacing="29.0">
+                  <HBox alignment="TOP_CENTER" prefHeight="41.0" prefWidth="276.0" spacing="29.0">
                      <children>
-                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="27.0" prefWidth="102.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Search" />
-                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="27.0" prefWidth="109.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Delete" />
+                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="27.0" prefWidth="94.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Search" />
+                        <Button mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Delete" />
                      </children>
                   </HBox>
-                  <HBox alignment="TOP_CENTER" prefHeight="47.0" prefWidth="280.0" spacing="29.0">
+                  <HBox alignment="TOP_CENTER" prefHeight="41.0" prefWidth="276.0" spacing="29.0">
                      <children>
-                        <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnClearOnAction" prefHeight="27.0" prefWidth="109.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Clear" />
+                        <Button mnemonicParsing="false" onAction="#btnClearOnAction" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: transperent; -fx-border-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: white;" text="Clear" />
                      </children>
                   </HBox>
                </children>
             </VBox>
          </children>
       </StackPane>
-      <TableView layoutX="292.0" layoutY="16.0" prefHeight="515.0" prefWidth="618.0" style="-fx-border-radius: 15; -fx-background-radius: 15; -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));">
+      <TableView layoutX="286.0" layoutY="14.0" prefHeight="532.0" prefWidth="638.0" style="-fx-border-radius: 15; -fx-background-radius: 15;">
         <columns>
-          <TableColumn fx:id="colCustomerId" prefWidth="103.20001220703125" style="-fx-border-radius: 15;" text="CustomerId" />
-          <TableColumn fx:id="colCustomerName" prefWidth="143.19998168945312" text="Customer Name" />
-            <TableColumn fx:id="colPhoneNumber" prefWidth="135.199951171875" text="Phone Number" />
-            <TableColumn fx:id="ColAddress" prefWidth="90.4000244140625" text="Address" />
-            <TableColumn fx:id="colEmail" prefWidth="145.5999755859375" text="Email" />
+          <TableColumn prefWidth="115.99993896484375" style="-fx-border-radius: 15;" text="Customer Id" />
+          <TableColumn prefWidth="129.60000610351562" text="Customer Name" />
+            <TableColumn prefWidth="129.60000610351562" text="Address" />
+            <TableColumn prefWidth="129.60000610351562" text="Phone Number" />
+            <TableColumn prefWidth="129.60000610351562" style="-fx-border-radius: 15;" text="Email" />
         </columns>
       </TableView>
    </children>

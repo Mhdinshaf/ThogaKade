@@ -23,6 +23,6 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public ObservableList<CustomerDto> getAllCustomerDetails() {
-
+        return null;
     }
 }
